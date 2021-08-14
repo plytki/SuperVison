@@ -1,0 +1,14 @@
+name: SuperVision
+version: ${project.version}
+main: me.plytki.supervision.SuperVision
+prefix: "SuperVison"
+#load: STARTUP
+authors: [ plytki ]
+description: Plugin intended for controlling server and supervising administration.
+commands:
+  supervision:
+    aliases: [svision]
+    permission: supervision.admin
+  report:
+  reports:
+    permission: supervision.reports

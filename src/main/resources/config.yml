@@ -1,0 +1,11 @@
+# Choose database system: MYSQL or H2 (local database)
+data-storage: H2
+# Enter data if "data-storage: MYSQL"
+mysql:
+  host: localhost
+  port: 3305
+  useSSL: false
+  autoReconnect: true
+  db_name: minecraft
+  db_user: user
+  db_password: password
